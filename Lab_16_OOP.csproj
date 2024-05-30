@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Lab_10_lib">
+      <HintPath>..\Lab_14_OOP\bin\Debug\net6.0\Lab_10_lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Lab_12_lib">
+      <HintPath>..\Lab_12_lib\bin\Debug\net6.0\Lab_12_lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
